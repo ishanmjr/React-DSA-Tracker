@@ -520,7 +520,7 @@ export default {
     {
       name: "KMP algo / LPS(pi) array",
       link: "https://leetcode.com/problems/implement-strstr/",
-      id: 1009,
+      id: 97,
     },
     {
       name: "Minimum characters needed to be inserted in the beginning to make it palindromic",
@@ -540,7 +540,7 @@ export default {
     {
       name: "Compare version numbers",
       link: "https://leetcode.com/problems/compare-version-numbers/",
-      id: 1099,
+      id: 991,
     },
   ],
 
