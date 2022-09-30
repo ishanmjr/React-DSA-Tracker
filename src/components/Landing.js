@@ -1,7 +1,7 @@
 import './Landing.css'
 import React from 'react';
 
-export default function() {
+const Landing = () => {
 
     const styles = {
         height : "60vh",
@@ -81,3 +81,4 @@ export default function() {
     )
 
 }
+export default Landing;

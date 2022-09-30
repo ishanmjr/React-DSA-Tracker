@@ -1,4 +1,4 @@
-export default {
+const data = {
   Arrays: [
     {
       name: "Set Matrix Zeroes",
@@ -956,3 +956,4 @@ export default {
     },
   ],
 };
+export default data;
