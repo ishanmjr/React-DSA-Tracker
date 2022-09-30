@@ -1,4 +1,4 @@
-export default {
+const data = {
 
     "Arrays" : [
         {
@@ -962,3 +962,4 @@ export default {
 }
 
 
+export default data;
