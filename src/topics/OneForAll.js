@@ -1,6 +1,6 @@
 import Task from "../components/Task"
 
-export default function(props) {
+const OneForAll = (props) => {
 
     const questions = props.topic
 
@@ -31,3 +31,4 @@ export default function(props) {
     )
 
 }
+export default OneForAll;

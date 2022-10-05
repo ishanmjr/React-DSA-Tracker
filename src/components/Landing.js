@@ -1,23 +1,35 @@
 import './Landing.css'
 import React from 'react';
-
-export default function() {
-
+const Landing = () => {
     const styles = {
         height : "60vh",
         font : 'Inter',
     }
-
     const headingStyles = {
         padding : "5%",
         fontWeight : '900'
     }
-
+    const changecolor = () => {
+        document.getElementsByClassName("App")[0].classList.toggle("change-back-to-dark");
+        document.getElementsByClassName("bm-burger-bars")[0].classList.toggle("change-color-dark-bright");
+        document.getElementsByClassName("bm-burger-bars")[1].classList.toggle("change-color-dark-bright");
+        document.getElementsByClassName("bm-burger-bars")[2].classList.toggle("change-color-dark-bright");
+        let ele = document.getElementsByTagName("h1");
+        for(let i=0;i<ele.length;i++){
+            ele[i].classList.toggle("change-head-color");
+        }
+    }
     return (
         <div className="Landing text-center" style={styles}>
-
             <h1 style={headingStyles}> DSA PROGRESS TRACKER </h1>
-
+            <div id = "toggle-view">
+            <div id="toggle1">Bright</div>
+            <label class="switch">
+            <input type="checkbox" onClick = {changecolor}></input>
+            <span class="slider round"></span>
+            </label>
+            <div id = "toggle1">Dark</div>
+            </div>
             {/* <h1>{getCount()} / 180 </h1> */}
 
             {/* <div className="TopicList">
@@ -81,3 +93,4 @@ export default function() {
     )
 
 }
+export default Landing;

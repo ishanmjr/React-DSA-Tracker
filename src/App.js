@@ -3,9 +3,7 @@ import Landing from './components/Landing';
 import OneForAll from './topics/OneForAll';
 import data from './data';
 import Sidebar from './components/Sidebar';
-
 function App() {
-
   const styles = {
     backgroundColor : "white"
   }
